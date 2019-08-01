@@ -1,0 +1,1694 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.head-shang {
+    position: relative;
+    z-index: 1000;
+    height: 70px;
+    box-sizing: border-box;
+    background-color: #242424;
+    border-bottom: 1px solid #000;
+}
+
+.shang-box {
+    width: 1100px;
+    margin-left: 200px;
+    line-height: 70px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.wyy-logo {
+    width: 169px;
+    height: 52px;
+    margin-left: 80px;
+    line-height: 52px;
+    float: left;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?2226bd4952dbd79fd30014b69e7fead6);
+    background-position: 1px 0px;;
+}
+
+.shang-box-text {
+    height: 70px;
+    box-sizing: border-box;
+
+}
+
+.list {
+    height: 70px;
+    display: inline-block;
+    
+}
+
+.list-box {
+    width: 450px;
+    height: 70px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.list span {
+    width: 66px;
+    height: 70px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;  
+}
+
+.shang-box-text a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+.list span :hover {
+    width: 66px;
+    background-color: #000;
+}
+
+.hot {
+    width: 26px;
+    height: 24px;
+    margin: 27px 0px 0px 428px;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?2226bd4952dbd79fd30014b69e7fead6);
+    background-position: 48px 0px;
+}
+
+.search {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 56px;
+    background-color: #fff;
+    border-radius: 25px;
+    position: relative;
+}
+
+.search-logo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 16px;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/topbar.png?2226bd4952dbd79fd30014b69e7fead6);
+    background-position: 0px 116px;
+}
+
+.search-text {
+    display: inline-block;
+    width: 120px;
+    height:30px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    top: 0px;
+}
+
+:focus {
+    outline: none;
+}
+.search-text:hover {
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.search-text {
+    font-size: 12px;
+}
+
+.search-right {
+    width: 80px;
+    height: 28px;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 8px;
+    border-radius: 25px;
+    position: relative;
+    bottom: 4px;
+    border: 1px solid #4f4f4f;
+}
+
+.search-right a {
+font-size: 12px;
+display: inline-block;
+width: 80px;
+height: 28px;
+position: relative;
+bottom: 22px;
+left: 10px;
+color: #ccc;
+}
+
+.search-right:hover {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.denglu {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    position: absolute;
+    top: 0px;
+}
+
+.denglu a {
+    display: inline-block; 
+    color: #787878;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.xiala {
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-top-color: #787878;
+    position: relative;
+    top: 16px;
+    left: 3px;
+}
+
+.denglu-xiala {
+    width: 130px;
+    height: 160px;
+    box-sizing: border-box;
+    position: relative;
+    top: -18px;
+    right: 18px;
+    display: none;
+}
+
+.denglu-xiala a {
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    position: relative;
+}
+
+.xiala-logo {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?bbe48e5b26cffb433418a9c3bc766254);
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.xiala-text {
+    height: 30px;
+    display: inline-block;
+    font-size: 12px;
+    position: absolute;
+    top: -20px;
+    left: 22px;
+
+}
+.wenxin {     
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    position: absolute;  
+    top: -39px; 
+}
+
+.wenxin-logo {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?bbe48e5b26cffb433418a9c3bc766254);
+    background-position:  31px -20px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.QQ {     
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    position: absolute;  
+    top: -79px; 
+}
+
+.QQ-logo {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?bbe48e5b26cffb433418a9c3bc766254);
+    background-position:  -71px 205px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.xinlang {     
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    position: absolute;  
+    top: -119px; 
+}
+
+.xinlang-logo {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?bbe48e5b26cffb433418a9c3bc766254);
+    background-position:  0px -22px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.wangyiyun {     
+    width: 130px;
+    height: 30px;
+    display: inline-block;
+    background-color: #333;
+    position: absolute;  
+    top: -159px; 
+}
+
+.wangyiyun-logo {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(https://s2.music.126.net/style/web2/img/frame/toplist.png?bbe48e5b26cffb433418a9c3bc766254);
+    background-position:  0px -40px;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+}
+
+.denglu:hover .denglu-xiala  {
+    display: block;
+}
+
+.head-zhong {
+    z-index: 90;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #C20C0C;
+    border-bottom: 1px solid #a40011;
+}
+
+.head-zhong-box {
+    width: 1100px;
+    margin-left: 280px;
+    line-height: 35px;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.shangla {
+    width: 0px;
+    height: 0px;
+    border: 6px solid transparent;
+    border-bottom-color: #C20C0C;
+    position: relative;
+    top: -34px;
+    left: 194px;
+    z-index: 10001;
+}
+
+.zhong-a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.tuijian {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    background-color: rgb(155, 9, 9);
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 164px;
+}
+
+.paihang {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 20px;
+} 
+
+.paihang {
+    width: 60px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 20px; 
+}
+
+.gedan {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 20px; 
+}
+
+.daintai {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.geshou {
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.xindie { 
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 25px;
+    display: inline-block;
+    color: aliceblue;
+    box-sizing: border-box;
+    
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.paihang:hover {
+    background-color: rgb(155, 9, 9);
+}
+
+.gedan:hover {
+    background-color: rgb(155, 9, 9);
+}
+
+.daintai:hover {
+    background-color: rgb(155, 9, 9);
+}
+
+.geshou:hover {
+    background-color: rgb(155, 9, 9);
+}
+
+.xindie:hover {
+    background-color: rgb(155, 9, 9);
+}
+
+.head-xia {
+    width: 1900px;
+    height: 270px;
+    float: left;
+    position: relative;
+    top: -1px;
+    background-color: rgb(5, 8, 25);
+    
+}
+
+.zuo-box {
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    position: relative;
+}
+
+.zuo {
+    width: 30px;
+    height: 50px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png?d4c08ccd9823866da7747e673667e1dc);
+    background-position: -4px 221px;
+    position: absolute;
+    top: -100px;
+    left: 245px;
+}
+
+
+.head-xia-box {
+    width: 1000px;
+    height: 270px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 230px;
+    background-color: rgba(5, 8, 25, 0.623);
+}
+
+.head-xia-left {
+    box-sizing: border-box;
+    float: left;
+    width: 720px;
+    height: 270px;
+    box-sizing: border-box;
+    background-image: url(http://p1.music.126.net/X9sMWIklDU76qO_-8aLL3g==/109951164245227883.jpg);
+    margin-left: 25px;
+}
+
+.head-xia-right {
+    box-sizing: border-box;
+    width: 255px;
+    height: 270px;
+    box-sizing: border-box;
+    float: left;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/download.png?cd09acf12be46286232fa265f5dcb08e);
+    
+}
+
+.you-box {
+    display: inline-block;
+    width: 30px;
+    height: 50px;
+    position: relative;
+}
+
+.you {
+    width: 30px;
+    height: 50px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png?d4c08ccd9823866da7747e673667e1dc);
+    background-position: -4px 150px;
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
+
+.body-box {
+    width: 1000px;
+    height: 2000px;
+    box-sizing: border-box;
+    position: relative;
+    margin-left: 270px;
+    margin-top: -1px;
+}
+
+.body-box-left {
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+    bottom: 77px;
+    width: 740px;
+    height: 1652px;
+    border-left: 1px solid rgb(211, 211, 211);
+    box-sizing: border-box;
+}
+
+.remen-box {
+    display: inline-block;
+    width: 740px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.remen-border {
+    display: inline-block;
+    width: 710px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #C10D0C;
+    background-color: #fff;
+}
+
+.remen-left {
+    width: 100px;
+    height: 40px;
+    position: relative;
+}
+
+.remen-logo {
+    display: inline-block;
+    width: 28px;
+    height: 40px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?aa68940f0f24ce108e028dfb8b3fe1e0);
+    background-position: 600px -150px;
+}
+
+.rementuijian {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+}
+
+.remen-middle {
+    width: 555px;
+    height: 40px;
+    position: relative;
+}
+
+.remen-middle a {
+    text-decoration: none;
+    color: #333;
+}
+
+.middle-text{
+    display: inline-block;
+    width: 32px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.middle-i {
+    display: inline-block;
+    font-size: 12px;
+}
+
+.remen-right {
+    width: 56px;
+    height: 40px;
+    position: relative;
+}
+
+.remen-right a {
+    text-decoration: none;
+    color: #666;
+}
+
+.gengduo {
+    height: 40px;
+    line-height: 50px;
+    font-size: 12px;
+}
+
+.gengduo-logo {
+    width: 20px;
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?aa68940f0f24ce108e028dfb8b3fe1e0);
+    background-position: 0px 235px;
+}
+
+.remen-container-box {
+    display: inline-block;
+    width: 740px;
+    height: 442px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #C10D0C;
+    background-color: #fff;
+}
+
+.remen-container-box2 {
+    display: inline-block;
+    width: 740px;
+    height: 440px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.remen-container {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 140px;
+    height: 185px;
+    margin-left: 36px;
+}
+
+.cat {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/CTXF-lsNP_1n-S06fIEjgw==/109951164170729917.jpg?param=140y140);
+    position: relative;
+}
+
+.yingyin {
+    display: inline-block;
+    width: 140px;
+    height: 25px;
+    position: absolute;
+    top: 114px;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?319b706d2ffda08621f4d63fa1a3deea);
+    background-position: 0px -538px;
+}
+
+.erji {
+    display: inline-block;
+    width: 15px;
+    height: 25px;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?926b4f7da2591c549fb63470c1a160e0);
+    background-position: 0px -17px;
+    margin-left: 5px;
+}
+
+.num {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #ccc;
+    position: absolute;
+    margin-left: 5px;
+}
+
+.bofang {
+    display: inline-block;
+    width: 15px;
+    height: 25px;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?926b4f7da2591c549fb63470c1a160e0);
+    background-position: 0px 5px;
+    margin-left: 90px;
+}
+
+.remen-container a {
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.diantaijiemu {
+    display: inline-block;
+    width: 60px;
+    height: 16px;
+    background-image: url(https://s2.music.126.net/style/web2/img/icon.png?5abfbea7138c0049c2bead0fbb94b1d0);
+    background-position: -1px 52px;
+    position: relative;
+    top: 3px;
+    background-color: #000;
+}
+
+.cat {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/CTXF-lsNP_1n-S06fIEjgw==/109951164170729917.jpg?param=140y140);
+    position: relative;
+}
+
+.fanzhe {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?33ffa22e990c80d8fe3c842ccff8aefb);
+    background-position: 0px 0px;
+    position: relative;
+}
+
+.ziyu {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/HBazO4IvB35CYeuoofukZA==/109951164084689475.jpg?param=140y140);
+    position: relative;
+}
+
+.summer {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/Y_UO1smre_CFlumoigpUvA==/109951164090161227.jpg?param=140y140);
+    position: relative;
+}
+
+.mayili {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/fdsFKUqOJpJp3A0gWEtEeg==/109951164246812146.jpg?param=140y140);
+    position: relative;
+}
+
+.oumei {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/Vul1lVY04aTjJU984riRXw==/19056735533185390.jpg?param=140y140);
+    position: relative;
+}
+
+.yaoyuan {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/4T7p6yhhzQEEeLn0e4dwKA==/109951164183879192.jpg?param=140y140);
+    position: relative;
+}
+
+.jingxuan {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/zGzNJcfLZfLW7E0bkI0opg==/109951163815887214.jpg?param=140y140);
+    position: relative;
+}
+
+.laonanhai {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p2.music.126.net/A7pJaPjddBRgzIrLkBV87w==/109951164067733440.jpg?param=140y140);
+    position: relative;
+}
+
+.gexinghua {
+    display: inline-block;
+    width: 740px;
+    height: 270px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.gexinghua-box {
+    display: inline-block;
+    width: 740px;
+    height: 260px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+
+.riqi {
+    width: 140px;
+    height: 185px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: 10px;
+    border-radius: 6px;
+}
+
+.xinqi {
+    width: 140px;
+    height: 32px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 30px;
+    color: #fed9d9;
+    font-size: 14px;
+    border-radius: 6px;
+    background-color: #962626;
+    text-align: center;
+}
+
+.day {
+    width: 140px;
+    height: 114px;
+    display: inline-block;
+    line-height: 102px;
+    text-align: center;
+    font-size: 94px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #202020;
+    margin-top: -6px;
+    position: relative;
+    background-color: transparent;
+}
+
+.zhedie {
+    width: 140px;
+    height: 114px;
+    display: inline-block;   
+    position: absolute;
+    left: 0px;
+    background-image: url(https://s2.music.126.net/style/web2/img/date.png?5df4435cb588694c29a02b585d336eb2);
+    background-position: 0px -143px;
+}
+
+.riqi-text {
+    width: 140px;
+    height: 70px;
+    display: inline-block; 
+}
+
+.riqi-text1 {
+    width: 140px;
+    height: 15px;
+    font-size: 14px;
+}
+
+.riqi-text2 {
+    width: 140px;
+    height: 50px;
+    line-height: 14px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.riqi-text3 {
+    width: 140px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.shuimian {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(https://p1.music.126.net/VIL3XL8rOsBsE_zjJz35vw==/109951164170679137.jpg?param=140y140);
+    position: relative;
+}
+
+.dongxi {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(http://p1.music.126.net/j4x-lF3NBzm3NTvUbSALUA==/109951162823894978.jpg?param=140y140);    
+    position: relative;
+}
+
+.chundianyin {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    background-image: url(https://p1.music.126.net/XSbvzcNE5zYFwCEDUgllTQ==/3440371886310532.jpg?param=140y140);    
+    position: relative;
+}
+
+.xindieshangjia {
+    display: inline-block;
+    width: 740px;
+    height: 300px;
+    background-color: #fff;
+}
+
+.shangjia-box {
+    width: 710px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #f5f5f5;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.badguy {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+.badguy-box {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.badguy-background {
+    display: inline-block;
+    width: 125px;
+    height: 120px;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall_8.png?a0cd0bb792077ef6e8d85d89c1025f8c);
+    background-position: 8px 930px;
+    position: absolute;
+}
+
+.shangjia-img {
+    display: inline-block;
+    width: 105px;
+    height: 101px;
+    background-image: url(http://p3.music.126.net/9u0Yh6-yefEGNTFZ4ZNjNg==/109951164208231738.jpg?param=100y100);
+    background-position: 0px 0px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.yingyin1 {
+    display: inline-block;
+    width: 120px;
+    height: 25px;
+    position: relative;
+    top: 80px;
+}
+
+.bofang1 {
+    display: inline-block;
+    width: 18px;
+    height: 25px;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?926b4f7da2591c549fb63470c1a160e0);
+    background-position: 0px 5px;
+    margin-left: 90px;
+    position: absolute;
+    top: 0px;
+}
+
+.shangjia-text {
+    display: inline-block;
+    width: 105px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 8px;
+}
+
+.shangjia-text1 {
+    width: 105px;
+    height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.shangjia-text2 {
+    width: 105px;
+    height: 20px;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.meihaoshiguan {
+    display: inline-block;
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+    position: relative;
+}
+
+
+.shangjia-img2 {
+    display: inline-block;
+    width: 105px;
+    height: 101px;
+    background-image: url(http://p3.music.126.net/TqF_j-ueOE7ABBdaBPCz1Q==/109951164179136396.jpg?param=100y100);
+    background-position: 0px 0px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.shangjia-img3 {
+    display: inline-block;
+    width: 105px;
+    height: 101px;
+    background-image: url(http://p3.music.126.net/qOzi5hQa9oxtn-A0YaRqUg==/109951164161475447.jpg?param=100y100);
+    background-position: 0px 0px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.shangjia-img4 {
+    display: inline-block;
+    width: 105px;
+    height: 101px;
+    background-image: url(http://p3.music.126.net/OP4iOnJX00e_4dgPWwCeug==/109951164186397410.jpg?param=100y100);
+    background-position: 0px 0px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.shangjia-img5 {
+    display: inline-block;
+    width: 105px;
+    height: 101px;
+    background-image: url(http://p4.music.126.net/mXqmc1nD5mu2S4pEvBVHzw==/109951164141857357.jpg?param=100y100);
+    background-position: 0px 0px;
+    position: absolute;
+    top: 4px;
+    left: 8px;
+}
+
+.bangdan {
+    display: inline-block;
+    width: 740px;
+    height: 540px;
+    background-color: #fff;
+}
+
+.bangdan-list {
+    display: inline-block;
+    width: 740px;
+    height: 500px;
+
+}
+
+.bangdan-list-box {
+    display: inline-block;
+    width: 700px;
+    height: 450px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.bangdan-left-top {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin-left: 17px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.biaoshenbang-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(http://p4.music.126.net/DrRIg6CrgDfVLEph9SNh7w==/18696095720518497.jpg?param=100y100);   
+}
+
+.biaoshenbang-right {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.biaoshengbang-text {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.biaoshengbang-logo {
+    width: 100px;
+    height: 60px;
+    position: relative;
+
+}
+
+.bsb-bofang {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 150px 180px;
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+
+.bsb-shoucang {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 120px 180px;
+    position: absolute;
+    left: 36px;
+    top: 6px;
+}
+
+.liebiao {
+    width: 234px;
+    height: 300px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    height: 30px;
+    font-size: 12px;
+    padding-left: 10px;
+    color: #000;
+}
+
+li:nth-child(2n-1) {
+    background-color: rgb(232, 232, 232);
+}
+
+li a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.liebiao-img-box {
+    float: right;
+    width: 80px;
+    position: relative;
+    right: 30px;
+    height: 30px;
+}
+
+.liebiao-img-right {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    right: 56px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 150px 180px;
+    display: none;
+}
+
+.liebiao-img-middle {
+    width: 16px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    right: 42px;
+    background-image: url(https://s2.music.126.net/style/web2/img/icon.png?52fb45b8dae19a92264a1b39d21bfef2);
+    background-position: 1px -695px;
+    display: none;
+}
+
+.liebiao-img-left {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 3px;
+    right: 19px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 120px 180px;
+    display: none;
+}
+
+.liebiao-img-box:hover span {
+    display: inline;
+}
+
+.red {
+    color: red;
+}
+
+.gengduo2-box {
+    text-decoration: none;
+    float: right;
+    width: 234px;
+    height: 30px;
+    font-size: 12px;
+    position: relative;
+    color: #333;
+    background-color: rgb(232, 232, 232);
+}
+
+.gengduo2 {
+    display: inline-block;
+    width: 58px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    left: 170px;
+
+}
+
+.bangdan-left {
+    width: 234px;
+    height: 444px;
+    float: left;border-left: 1px solid rgb(192, 191, 191);
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+    
+}
+
+
+.bangdan-middle {
+    display: inline-block;
+    width: 233px;
+    height: 444px;
+    border-left: 1px solid rgb(192, 191, 191);
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+
+}
+
+.bangdan-right {
+    width: 234px;
+    height: 444px;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-left: 1px solid rgb(192, 191, 191);
+    border-top: 1px solid rgb(192, 191, 191);
+    border-bottom: 1px solid rgb(192, 191, 191);
+    border-right: 1px solid rgb(192, 191, 191);
+    
+
+}
+
+.biaoshenbang-img1 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(http://p3.music.126.net/N2HO5xfYEqyQ8q6oxCw8IQ==/18713687906568048.jpg?param=100y100);   
+}
+
+.biaoshenbang-img2 {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-image: url(http://p4.music.126.net/sBzD11nforcuh1jdLSgX7g==/18740076185638788.jpg?param=100y100);   
+}
+
+.body-box-right {
+    width: 250px;
+    height: 1650px;
+    position: relative;
+    float: right;
+    top: 272px;
+    left: -8px;
+    box-sizing: border-box;
+    border-left: 1px solid rgb(211, 211, 211);
+    border-right: 1px solid rgb(211, 211, 211);
+}
+
+.yonghudenglu{
+    width: 248px;
+    height: 120px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 0px 0px;
+}
+
+.denglu-shang {
+    width: 247px;
+    height: 78px;
+}
+
+.denglu-text {
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    color: #666;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.denglu-logo {
+    width: 100px;
+    height: 40px;
+    margin-left: 70px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 39px;
+    color: white;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?50c7cf876112ca972aff2832da797633);
+    background-position: 0px 274px;
+    text-shadow: 0 1px 0 #8a060b;
+}
+
+.right-nav {
+    width: 247px;
+    height: 40px;
+    position: relative;
+    background-color: #fff;
+}
+
+.right-nav-box {
+    display: inline-block;
+    width: 230px;
+    height: 20px ;
+    margin-left: 8px;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;    
+    border-bottom: 1px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-nav-box div {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.geshou-box {
+    width: 250px;
+    height: 400px;
+}
+
+.geshou-box1 {
+    width: 230px;
+    height: 62px;
+    margin-left: 8px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: #fafafa;
+}
+
+.box1-img {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(http://p2.music.126.net/p9U80ex1B1ciPFa125xV5A==/5931865232210340.jpg?param=62y62);
+}
+
+.box1-text {
+    display: inline-block;
+    width: 100px;
+    height: 62px;
+    position: relative;
+    top: -20px;
+    left: 10px;
+}
+
+.box1-text1 {
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: -6px;
+}
+
+.box1-text2 {
+    font-size: 12px;
+    margin-top: 6px;
+
+}
+
+.geshou-box2 {
+    width: 230px;
+    height: 62px;
+    margin-left: 8px;
+    margin-top: 10px;
+    border: 1px solid rgb(233, 233, 233);
+    background-color: #fafafa;
+}
+
+.box2-img {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(http://p2.music.126.net/1EN_iqQWU_E3DafzEOh3cA==/3302932937408956.jpg?param=62y62);
+}
+
+.box3-img {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(http://p2.music.126.net/ZuktZvjcxpYBjcWC3gmbPg==/19027048718765608.jpg?param=62y62);
+}
+
+.box4-img {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(http://p2.music.126.net/v_zYgE9kmAwVGWV2c8hFxA==/7943971513291094.jpg?param=62y62);
+}
+
+.box5-img {
+    display: inline-block;
+    width: 62px;
+    height: 62px;
+    background-image: url(http://p2.music.126.net/6wPGl_ddgAbJTx5kOohcyw==/109951163892302996.jpg?param=62y62);
+}
+
+.geshou-box3 {
+    width: 230px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 8px;
+    margin-top: 10px;
+    border: 1px solid rgb(192, 191, 191);
+    background-color: #fafafa;
+}
+
+.zhubo-box {
+    width: 250px;
+    height: 240px;
+}
+
+.zhubo { 
+    width: 250px;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.zhubo-img1 {
+    width: 40px;
+    height: 40px;
+    background-image: url(http://p1.music.126.net/H3QxWdf0eUiwmhJvA4vrMQ==/1407374893913311.jpg?param=40y40);
+}
+
+.zhubo-text {
+    width: 180px;
+    height: 40px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 44px;
+
+}
+
+.vip {
+    width: 14px;
+    height: 10px;
+    display: inline-block;
+    margin-bottom: -1px;
+    background-image: url(https://s2.music.126.net/style/web2/img/icon.png?52fb45b8dae19a92264a1b39d21bfef2);
+    
+}
+
+.zhubo-text div {
+    font-size: 12px;
+}
+
+.zhubo1 { 
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.zhubo-img2 {
+    width: 40px;
+    height: 40px;
+    background-image: url(http://p1.music.126.net/y5-sM7tjnxnu_V9LWKgZlw==/7942872001461517.jpg?param=40y40);
+}
+
+.zhubo-img3 {
+    width: 40px;
+    height: 40px;
+    background-image: url(http://p1.music.126.net/6cc6lgOfQTo6ovNnTHPyJg==/3427177769086282.jpg?param=40y40);
+}
+
+.zhubo-img4 {
+    width: 40px;
+    height: 40px;
+    background-image: url(http://p1.music.126.net/xa1Uxrrn4J0pm_PJwkGYvw==/3130309604335651.jpg?param=40y40);
+}
+
+.zhubo-img5 {
+    width: 40px;
+    height: 40px;
+    background-image: url(http://p1.music.126.net/slpd09Tf5Ju82Mv-h8MP4w==/3440371884651965.jpg?param=40y40);
+}
+
+.foot {
+    width: 1900px;
+    height: 150px;
+    position: relative;
+    top: -78px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgb(245, 245, 245);
+}
+
+.foot-box {
+    width: 1000px;
+    height: 150px;
+    position: absolute;
+    right: 635px;
+}
+
+.foot-left {
+    width: 500px;
+    height: 150px;
+    display: inline-block;
+}
+
+.left-shang {
+    width: 500px;
+    height: 16px;
+}
+
+.left-shang span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999; 
+}
+
+.left-zhong {
+    width: 500px;
+    height: 22px;
+}
+
+.left-zhong span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999; 
+}
+
+.left-xia {
+    width: 500px;
+    height: 15px;
+}
+
+.left-xia span {
+    display: inline-block;
+    font-size: 12px;
+    color: #999; 
+}
+
+.foot-right {
+    width: 500px;
+    height: 150px;
+    display: inline-block;
+    
+}
+
+.right-img-box {
+    width: 88px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 510px;
+}
+
+.right-img {
+    width: 88px;
+    height: 100px;   
+    background-image: url(https://s2.music.126.net/style/web2/img/foot_enter_new.png?7ebbf15dd71bff29c004151db7ec2d1a);
+    background-position: 88px -190px;
+}
+
+.right-img+span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.right-img-box1 {
+    width: 88px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 640px;
+}
+
+.right-img2 {
+    width: 88px;
+    height: 90px; 
+    margin-top: 10px;    
+    background-image: url(https://s2.music.126.net/style/web2/img/foot_enter_new.png?7ebbf15dd71bff29c004151db7ec2d1a);
+    background-position: 0px 0px;
+}
+
+.right-img2+span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.right-img-box2 {
+    width: 88px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 770px;
+}
+
+.right-img3 {
+    width: 88px;
+    height: 90px; 
+    margin-top: 10px;  
+    background-image: url(https://s2.music.126.net/style/web2/img/foot_enter_new.png?7ebbf15dd71bff29c004151db7ec2d1a);
+    background-position: 88px -100px;
+}
+
+.right-img3+span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+.right-img-box3 {
+    width: 88px;
+    height: 120px;
+    position: absolute;
+    top: 0px;
+    left: 900px;
+}
+
+.right-img4 {
+    width: 88px;
+    height: 90px; 
+    margin-top: 10px;   
+    background-image: url(https://s2.music.126.net/style/web2/img/foot_enter_new.png?7ebbf15dd71bff29c004151db7ec2d1a);
+    background-position: 0px -200px;
+}
+
+.right-img4+span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
